@@ -1,1 +1,11 @@
 使用uniapp开发app
+项目描述：
+  1、该项目为基于uniapp与Python开发的手机APP项目，使用关系型数据库MySQL
+  2、前端页面的编写使用的是uniapp集成的Vue框架，后端采用Python Django框架开发出一套符合restful API
+  3、等下干嘛APP是一款年轻人交友软件，主要以参加活动的形式进行用户之间的交流
+  4、该项目主要有活动发布与参加、用户之间的关注等功能
+个人职责：
+  1、采用Vue框架对前端页面进行编写
+  2、使用Python Django对后台API进行开发
+  3、项目中的即时聊天采用融云进行开发
+  4、Django的model层对MySQL数据库进行操作
