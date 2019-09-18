@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息</title>
+	<link rel="stylesheet" href="css/demo.css">
+	<script type="text/javascript" src="js/uniapp.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+
+<body>
+	<div class="res" id="vue">
+		<div class="t-nav nav-first">
+			<div class="nav-text">{{userName}}</div>
+		</div>
+		<div class="t-nav"></div>
+		<div class="leftText">
+			<img src="img/userImg.jpg" class="ti-img">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	new Vue({
+	  el: '#vue',
+	  data: {
+	    userName: 'tom',
+		talkList: [
+			{type: '0', content: '第1条信息'},
+			{type: '1', content: '第2条信息'},
+			{type: '0', content: '第3条信息'},
+			{type: '1', content: '第4条信息'},
+			{type: '0', content: '第5条信息'},
+			{type: '0', content: '第6条信息'},
+			{type: '0', content: '第7条信息'},
+			{type: '1', content: '第8条信息'},
+			{type: '0', content: '第9条信息'},
+			{type: '0', content: '第10条信息'}
+		]
+	  },
+	  computed:{
+		
+	  }
+	})
+</script>
+
+</html>

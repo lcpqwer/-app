@@ -1,0 +1,180 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/enter/enter",
+		    "style" : {}
+		},
+		{
+			"path":"pages/login/guide"
+		},
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path":"pages/login/sign_in"
+		},
+		{
+			"path":"pages/login/user_gender"
+		},
+		{
+			"path":"pages/login/user_logined"
+		},
+		{
+			"path":"pages/login/user_sign"
+		},
+		 {
+			"path": "pages/home/home",
+			"style": {}
+		}, {
+			"path": "pages/user/user",
+			"style": {}
+		}, {
+			"path": "pages/talk/talk",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/index/upload-active",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/actice-details",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/screening",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/index/screening",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/index/report",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/home-page",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cs/cs",
+            "style" : {}
+        },
+		{
+			"path":"pages/home/invite"
+		}
+        ,{
+            "path" : "pages/home/class-choose",
+            "style" : {}
+        },
+		{
+			"path":"pages/user/details_all"
+		},
+		{
+			"path":"pages/user/my_follows"
+		},
+		{
+			"path":"pages/user/my_fans"
+		},
+		{
+			"path":"pages/user/black_block"
+		},
+		{
+			"path":"pages/user/my_carport"
+		},
+		{
+			"path":"pages/user/add_car"
+		},
+		{
+			"path":"pages/user/app_setting"
+		},
+		{
+			"path":"pages/user/appear_test"
+		}
+        ,{
+            "path" : "pages/index/active-type",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/choose-address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/choose-person",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/my-car",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/my-upload",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/my-can",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/index",
+            "style" : {}
+        },
+		{
+			"path":"pages/talk/home"
+		}
+        ,{
+            "path" : "pages/home/showMap",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/set-head/set-head",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/add_car/add_car",
+            "style" : {}
+        },
+		{
+			"path":"pages/load/load"
+		}
+        ,{
+            "path" : "pages/user/carInfo/carInfo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/home/choosePeople/choosePeople",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/enter/enter",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/changePassword/changePassword",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/accountAecurity/accountAecurity",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/userPassword/userPassword",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/myAppearance/myAppearance",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/retest/retest",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#161824",
+		"navigationBarTitleText": "等下干嘛",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	}
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息</title>
+	<link rel="stylesheet" href="css/demo.css">
+	<script type="text/javascript" src="js/uniapp.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+
+<body>
+	<div id="vue" class="res">
+		<div class="t-nav nav-first">
+			<div class="nav-text">信息</div>
+		</div>
+		<div class="t-nav"></div>
+		<div class="talk-main">
+			<div class="talk-item" v-for="item in talkList" v-on:click="toSend">
+				<img src="img/userImg.jpg" class="ti-img">
+				<div class="user-name">{{item.userName}}</div>
+				<div class="last-talk">{{item.lastTalk}}</div>
+				<div class="talk-time">{{item.talkTime}}</div>
+				<div class="talk-num">{{item.talkNum}}</div>
+			</div>
+		</div>
+		<div class="m-bottom"></div>
+		<div class="nav-warpper">
+			<div class="res">
+				<div class="nav-item">
+					<div class="res">
+						<img src="img/talk1.png" >
+					</div>
+				</div>
+				<div class="nav-item" id="home" v-on:click="toHome">
+					<div class="res">
+						<img src="img/home.png">
+					</div>
+				</div>
+				<div class="nav-item" id="user" v-on:click="toUser">
+					<div class="res">
+						<img style="width: 22%;" src="img/user1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<style type="text/css">
+		
+	</style>
+</body>
+<script type="text/javascript">
+	new Vue({
+	  el: '#vue',
+	  data: {
+	    talkList: [
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '1'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '2019-08-08', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '1'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '2019-08-08', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '1'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '2019-08-08', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '1'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '2019-08-08', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '1'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '2019-08-08', talkNum: '99+'},
+			{userName: 'Tom',lastTalk: '你好', talkTime: '09:00', talkNum: '99+'}
+		]
+	  },
+	  methods:{
+		toHome(){
+			uni.navigateTo({
+				url: '/pages/index/index'
+			})
+		},
+		toUser(){
+			uni.navigateTo({
+				url: '/pages/index/index?id=1'
+			})
+		},
+		toSend(){
+			window.location.href = 'demo2.html'
+		}
+	  }
+	})
+	new Vue({
+		el:''
+	})
+</script>
+
+</html>
